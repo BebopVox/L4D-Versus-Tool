@@ -1,0 +1,26 @@
+﻿Построение начато 10.04.2016 18:57:20.
+     1>Проект "E:\Саня\Other\Left 4 dead_devs\L4D_Server_plugin\L4D_SDK\utils\L4D_Versus_Tool\L4D_Versus_Tool.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание ".\Release\serverplugin_empty-2005.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\Саня\Other\Left 4 dead_devs\L4D_Server_plugin\L4D_SDK\utils\L4D_Versus_Tool\.\Release\serverplugin_empty-2005.dll) не соответствует значению свойства выходного файла (D:\Games\Steam\SteamApps\common\left 4 dead\left4dead\addons\L4D_Versus_Tool.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(serverplugin_empty-2005) не соответствует значению свойства выходного файла (L4D_Versus_Tool) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+       Link:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Games\Steam\SteamApps\common\left 4 dead\left4dead\addons\L4D_Versus_Tool.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\common /LIBPATH:..\..\lib\public odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\serverplugin_empty-2005.pdb" /MAP:".\Release\serverplugin_empty-2005.map" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Release\serverplugin_empty-2005.lib" /MACHINE:X86 /DLL .\Release\L4D_Versus_Tool.obj
+         ..\..\lib\public\mathlib.lib
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\vstdlib.lib
+            Создается библиотека .\Release\serverplugin_empty-2005.lib и объект .\Release\serverplugin_empty-2005.exp
+         L4D_Versus_Tool.vcxproj -> E:\Саня\Other\Left 4 dead_devs\L4D_Server_plugin\L4D_SDK\utils\L4D_Versus_Tool\.\Release\serverplugin_empty-2005.dll
+       FinalizeBuildStatus:
+         Файл ".\Release\serverplugin_empty-2005.unsuccessfulbuild" удаляется.
+         Обращение к ".\Release\serverplugin_empty-2005.lastbuildstate".
+     1>Построение проекта "E:\Саня\Other\Left 4 dead_devs\L4D_Server_plugin\L4D_SDK\utils\L4D_Versus_Tool\L4D_Versus_Tool.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.82
